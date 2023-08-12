@@ -49,7 +49,7 @@ const page: FC<pageProps> = ({}) => {
                 className="mr-2 h-4 w-4"
               />
             )}
-            <span className="mr-2">Google</span>
+            Google
           </Button>
         </div>
       </section>
