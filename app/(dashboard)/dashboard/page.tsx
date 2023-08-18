@@ -1,4 +1,3 @@
-
 import Button from "@/components/ui/button"
 import { authOptions } from "@/lib/auth"
 import { getServerSession } from "next-auth"
@@ -9,7 +8,6 @@ const page = async ({}) => {
   return (
     <>
       <pre>dashboard</pre>
-      {/* <Button onClick={() => signOut()}>Sign Out</Button> */}
     </>
   )
 }
