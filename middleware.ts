@@ -23,10 +23,10 @@ export default withAuth(
     }
 
     if (!isAuth && isAccesingSensitiveRoutes) {
-      return NextResponse.redirect(new URL("/auth/login", req.url))
+      return NextResponse.redirect(new URL("/login", req.url))
     }
     if (pathName === "/") {
-      return NextResponse.redirect(new URL("/auth/login", req.url))
+      return NextResponse.redirect(new URL("/login", req.url))
     }
   },
 
